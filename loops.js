@@ -11,4 +11,6 @@ function doWhileLoop(n){
   let countdown = 100
   while (countdown > (n)) {
     console.log(--countdown)
+  }
+  return "done";
 }
