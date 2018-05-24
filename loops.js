@@ -8,7 +8,7 @@ function forLoop(array){
 return array;
 }
 function whileLoop(n){
-  let countdown = 100
+  let countdown = n;
   while (countdown > (n)) {
     console.log(--countdown)
   }
